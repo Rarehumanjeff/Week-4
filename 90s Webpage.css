@@ -1,0 +1,86 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(184, 184, 224);
+}
+.container{
+    width: 1400px;
+    height: 600px;
+    position: relative;
+    margin: 200px auto;
+}
+.container img
+{
+    width:  1400px;
+    height: 600px;
+}
+.text
+{
+    color: white;
+    font-size: 50px;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+nav
+{
+    background-color: azure;
+    color: orange;
+    border: 2px dashed black;
+    border-top-left-radius: 2em 2em;
+    border-top-right-radius: 2em 2em;
+    border-bottom-left-radius: 2em 2em;
+    border-bottom-right-radius: 2em 2em;
+    width: 8em;
+    text-align: center;
+}
+p
+{
+    color: rgb(37, 66, 114);
+    text-align: left;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+h1
+{
+    color: rgb(37, 66, 114);
+    text-align: left;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+h2
+{
+    text-transform: uppercase;
+    text-shadow: 2cap;
+    text-decoration: double;
+}
+h6
+{
+    text-decoration: wavy;
+    font-size: 20px;
+    color: aliceblue;
+}
+button
+{
+    background-color: rgb(242, 242, 115);
+    border: rgb(3, 3, 3);
+    border-radius: 100px;
+    border-style: groove;
+    box-shadow: 5px 5px 5px #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    width: 150px;
+    height: 50px;
+    cursor: crosshair;
+    
+}   
+
